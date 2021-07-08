@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: scp-auth
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster-ce.oiphr.mongodb.net/SCP?retryWrites=true&w=majority
+
+scp:
+  app:
+    jwtSecret: scp-app-test
+    jwtExpirationMs: 86400000
+
+server:
+  port: 8091
+
